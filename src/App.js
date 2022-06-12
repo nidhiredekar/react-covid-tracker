@@ -92,7 +92,7 @@ const App = () => {
         <div className="app__stats">
           <InfoBox
             onClick={(e) => setCasesType("cases")}
-            title="Coronavirus Cases"
+            title="Coronavirus Cases nidhi"
             isRed
             active={casesType === "cases"}
             cases={prettyPrintStat(countryInfo.todayCases)}
@@ -124,7 +124,7 @@ const App = () => {
       <Card className="app__right">
         <CardContent>
           <div className="app__information">
-            <h3>Live Cases by Country</h3>
+            <h3>Live Cases by Country names</h3>
             <Table countries={tableData} />
             <h3>Worldwide new {casesType}</h3>
             <LineGraph casesType={casesType} />
